@@ -33,11 +33,11 @@ A Python-based URL shortener system that shortens URLs, tracks usage analytics, 
 
 ### 1. Shorten a URL:
 
-python cli.py shorten "https://example.com" --expiry 48 --password "secure123"
+python cli.py shorten "https://example.com" --expiry 48 --password "<YOUR_PASSWORD>"
 
 ### 2. Redirect using the shortened URL:
 
-python cli.py redirect https://short.ly/100680 --password test
+python cli.py redirect https://short.ly/100680 --password "<YOUR_PASSWORD>"
 
 ### 3. View analytics for the shortened URL:
 
