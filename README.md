@@ -14,7 +14,13 @@ A Python-based URL shortener system that shortens URLs, tracks usage analytics, 
 
 1. **Python Version**: Python 3.8 or later.
 2. **SQLite**: Included with Python (no additional setup required).
-3. **Dependencies**: Ensure required libraries are installed using:
+3. Clone Repository:
+
+   ```bash
+   git clone git@github.com:krunaldodiya/url_shortener.git
+   ```
+
+4. **Dependencies**: Ensure required libraries are installed using:
    ```bash
    pip install -r requirements.txt
    ```
